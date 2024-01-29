@@ -5,9 +5,127 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  padding: 0;
+}
+.Home{
+  height: 100vh;
+}
+.Logo{
+  color: white;
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 150px;
+  background-color: #0066ee;
+}
+/* p, h1{
+  margin: 0;
+} */
+.user-icon{
+  background-color: white;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #0066ee;
+  padding: 50px 150px;
+  color: white;
+}
+.text-lg{
+  font-size: 60px;
+  margin: 0px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.btn1{
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  background-color: white;
+  color: #0066ee;
+  font-weight: 700;
+  cursor: pointer;
+}
+.hero_phone_large{
+  height: 31.25rem;
+}
+.mini_nav_ul{
+  /* background-color: rgba(255, 255, 255, .5); */
+  padding: 0;
+}
+.mini_nav_ul li{
+  display: inline;
+  list-style: none;
+  margin-right: 20px;
+  border-radius: 20px;
+  border: 1px solid #0066ee;
+  padding: 10px;
+}
+.how_it_works{
+  padding: 50px 150px;
+}
+.how_it_works h1{
+  font-size: 60px;
+  color: #0066ee;
+  margin: 0px;
+}
+.how_it_works_grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+.how_it_works .col{
+  height: 400px;
+  width: 100%;
+}
+.col_text{
+  display: flex;
+  flex-direction: column;
+}
+.col_text h2{
+  font-size: 45px;
+}
+.col img{
+  height: 100%;
+  display: block;
+  margin: auto;
+}
+.col_text_odd{
+  align-items: end;
+  text-align: right;
+}
+footer{
+  height: 50vh;
+  background-color: grey;
+  padding: 50px 150px;
+  color: white;
+}
+.ft_container{
+  display: flex;
+  justify-content: space-between;
+}
+.ft_left{
+  line-height: 50px;
+  flex-basis: 30%;
+}
+.ft_right{
+  flex-basis: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+.ft_right ul{
+  list-style: none;
+
+}
+.btn_ft{
+  width: 80%;
 }
