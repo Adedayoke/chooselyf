@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import { icon } from '@fortawesome/fontawesome-svg-core/import.macro'
 import React from 'react';
 import hero_phone_large from "../images/hero-phone-large.webp";
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
@@ -25,7 +26,7 @@ const Home = () => {
                 <p>#1 Nutrition tracking app.</p>
                 <p className='text-lg'><strong>Reach your goals</strong> <br /> with ChooseLyf</p>
                 <p>Build healthy habits with the all-in-one food, exercize, and calorie tracker.</p>
-                <button className='btn1'>START TODAY <FontAwesomeIcon icon={faChevronRight} /></button>
+                <Link><button className='btn1'>START TODAY <FontAwesomeIcon icon={faChevronRight} /></button></Link>
             </div>
             <div>
                 <img className='hero_phone_large' src={hero_phone_large} alt="" />
