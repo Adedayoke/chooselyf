@@ -1,0 +1,84 @@
+.nav2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 150px;
+    background-color: white;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, .3);
+    color: #0066ee;
+}
+.Input_name section, .Goals section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+.input_name_container, .Goals_container{
+    width: 30%;
+    height: 100%;
+    text-align: center;
+    padding: 0px 30px;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, .3);
+    margin-top: 20px;
+    height: 80vh;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.input_name_container1{
+    width: 100%;
+}
+.first_name{
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #0066ee;
+    outline: none;
+}
+.btns_container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+.btns_container button{
+    padding: 10px;
+    display: inline-block;
+    width: 40%;
+    border: 1px solid #0066ee;
+    background-color: transparent;
+    color: #0066ee;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.btns_container button:nth-child(2){
+    background-color: #0066ee;
+    color: white;
+}
+.btns_container button:nth-child(2) a{
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+.btns_container button:nth-child(2):hover{
+    border: 1px solid #0066ee;
+    background-color: transparent;
+    color: #0066ee;
+}
+.btns_container button:nth-child(2):hover a{
+    color: #0066ee;
+}
+.btns_container button:hover{
+    background-color: #0066ee;
+    color: white;
+}

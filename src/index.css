@@ -87,6 +87,9 @@ header{
   height: 400px;
   width: 100%;
 }
+/* .col{
+  background-color: red;
+} */
 .col_text{
   display: flex;
   flex-direction: column;
