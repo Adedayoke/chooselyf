@@ -14,13 +14,6 @@ const Home = () => {
            <FontAwesomeIcon style={{"color":'blue'}} icon={faUser} />
            </div>
         </nav>
-        {/* <div className="mini_nav">
-          <ul className='mini_nav_ul'>
-            <li>How it works</li>
-            <li>Apps</li>
-            <li>Philosophy</li>
-          </ul>
-        </div> */}
         <header>
             <div >
                 <p>#1 Nutrition tracking app.</p>
@@ -64,7 +57,7 @@ const Home = () => {
             <div className='ft_left'>
               <h1>ChooseLyf</h1>
               <p>Find your healthy and your happy.</p>
-              <button className='btn1 btn_ft'>START TODAY <FontAwesomeIcon icon={faChevronRight} /></button>
+              <Link to="/account/create/input_name"><button className='btn1'>START TODAY <FontAwesomeIcon icon={faChevronRight} /></button></Link>
             </div>
             <div className='ft_right'>
               <ul>
